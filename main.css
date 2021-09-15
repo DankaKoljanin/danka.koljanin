@@ -63,6 +63,7 @@ img {
     font-size: 14px;
     font-weight: 400;
     padding: 20px 0;
+    z-index: 1;
 }
 
 /****************** 
@@ -334,7 +335,10 @@ img {
 }
 
 @media (max-height: 800px) {
-    .hero, .contact {
+    /* .hero, .contact {
         height: auto;
+    } */
+    .main-content {
+        margin: 20px auto;
     }
 }
