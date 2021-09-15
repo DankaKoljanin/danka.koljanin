@@ -31,6 +31,7 @@ body {
 .main-content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     box-sizing: border-box;
     max-width: 100%;
     margin-top: 100px;
@@ -332,12 +333,6 @@ img {
     .hero-content .jumbo-title .title {
         padding-left: 40px;
     }
-}
-
-@media (max-height: 800px) {
-    /* .hero, .contact {
-        height: auto;
-    } */
     .main-content {
         margin: 20px auto;
     }
